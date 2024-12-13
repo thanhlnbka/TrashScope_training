@@ -1,0 +1,27 @@
+
+names: 
+  0: Overload_Clean
+  1: Overload_Not_clean
+  2: Overload_Partial_mix
+  3: Overload_Total_mix
+  4: Not_overload_Clean
+  5: Not_overload_Not_clean
+  6: Not_overload_Partial_mix
+  7: Not_overload_Total_mix
+  8: Not_overload_Empty
+  9: Not_overload_Unknown
+  10: Overload_Unknown
+  11: Unknown_Unknown
+
+
+nc: 12
+
+
+path: /workspace/obj_det_cls/split_data_training  
+
+
+train: train/images  
+val: val/images      
+
+
+autoanchor: True

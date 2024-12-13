@@ -1,0 +1,17 @@
+# Ignore .pth files in all folders
+*.pth
+
+# Ignore cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore output results
+task_cls/training_multihead_clsweight/
+task_cls/training_multihead_focalloss/
+task_det/yolo_training/
+
+# Ignore other temporary or unnecessary files
+*.log
+*.tmp
+*.bak

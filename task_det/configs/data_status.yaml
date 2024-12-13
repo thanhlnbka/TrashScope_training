@@ -1,0 +1,16 @@
+names: 
+  0: Overload
+  1: Not_overload
+  2: Unknown
+  3: Empty
+
+nc: 4
+
+path: /workspace/task_det/split_data_training_4cls
+
+
+train: train/images  
+val: val/images      
+
+# weights: [0.5, 0.5, 0.1, 1]
+autoanchor: True
